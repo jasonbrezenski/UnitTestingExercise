@@ -15,7 +15,6 @@ namespace UnitTestingExercise
         public int Add(int num1, int num2, int num3)
         {
             return num1 + num2 + num3;
-            throw new NotImplementedException();
         }
 
 
@@ -29,7 +28,6 @@ namespace UnitTestingExercise
         public int Subtract(int minuend, int subtrahend)
         {
             return minuend - subtrahend;
-            throw new NotImplementedException();
         }
 
 
@@ -42,7 +40,6 @@ namespace UnitTestingExercise
         public int Multiply(int num1, int num2)
         {
             return num1 * num2;
-            throw new NotImplementedException();
         }
 
 
@@ -55,7 +52,6 @@ namespace UnitTestingExercise
         public int Divide(int num1, int num2)
         {
             return num1 / num2;
-            throw new NotImplementedException();
         }
 
         // DONE-Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method 
